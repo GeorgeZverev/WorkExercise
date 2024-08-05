@@ -39,7 +39,7 @@ def separator_space(first_name: str, last_name: str, DOB: str, social: str) -> s
 
 if __name__ == "__main__":
     first_name, last_name, DOB, social = data_get()
-    if len(DOB) < 10 and len(social) < 10:
+    if len(DOB) < 10 and len(social) < 11:
         exit('uncorrected data')
     number_one = value_key_system(first_name, last_name, DOB, social)
     print(number_one)
